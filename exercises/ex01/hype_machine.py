@@ -10,9 +10,9 @@ __author__ = "730512828"
 
 user_name: str = input("What is your name? ")
 
-print(user_name + "is terrific! ")
+print(user_name + " is terrific! ")
 
-print("keep slaying" + user_name + "! ") 
+print("keep slaying " + user_name + "! ") 
 
 print("You know what " + user_name + " you can do it! ")
 

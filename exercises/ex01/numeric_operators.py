@@ -2,25 +2,17 @@
 
 __author__ = "730512828"
 
-print("Left-hand side: 7")
+Left_hand_side = int(input("Left_hand_side: ")) 
 
-print("Right-hand side: 5")
+Right_hand_side = int(input("Right_hand_side: "))
 
-x = int(7 ** 5)
+print(str(Left_hand_side) + " ** " + str(Right_hand_side) + " is " + str(Left_hand_side ** Right_hand_side))
 
-print("7 ** 5 is " + str(x))
+print(str(Left_hand_side) + " / " + str(Right_hand_side) + " is " + str(Left_hand_side / Right_hand_side))
 
-x_two = float(7 / 5)
+print(str(Left_hand_side) + " // " + str(Right_hand_side) + " is " + str(Left_hand_side // Right_hand_side))
 
-print("7 / 5 is " + str(x_two))
-
-x_three = int(7 // 5)
-
-print("7 // 5 is " + str(x_three))
-
-x_four = int(7 % 5)
-
-print("7 % 5 is " + str(x_four))
+print(str(Left_hand_side) + " % " + str(Right_hand_side) + " is " + str(Left_hand_side % Right_hand_side))
 
 
 
