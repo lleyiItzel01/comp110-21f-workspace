@@ -6,18 +6,18 @@ print("Left-hand side: 7" )
 
 print("Right-hand side: 5" )
 
-result: bool = bool(input("what is 7 < 5? "))
+x = bool(7 < 5)
 
-print(" 7 < 5 is " + str(result))
+print(" 7 < 5 is " + str(x))
 
-result_two: bool = bool(input("what is 7 >= 5? "))
+x_two = bool(7 >= 5)
 
-print(" 7 >= 5 is " + str(result_two))
+print(" 7 >= 5 is " + str(x_two))
 
-result_three: bool = bool(input("what is 7 == 5? "))
+x_three = bool(7 == 5)
 
-print(" 7 == 5 is " + str(result_three))
+print("7 == 5 is " + str(x_three))
 
-result_four: bool = bool(input("what is 7 != 5? "))
+x_four = bool(7 != 5)
 
-print(" 7 != 5 is " + str(result_four))
+print("7 != 5 is " + str(x_four))

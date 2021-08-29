@@ -6,22 +6,21 @@ print("Left-hand side: 7" )
 
 print("Right-hand side: 5" )
 
-result: int = int(input("what is the result of 7 ** 5? "))
+x = int(7 ** 5)
 
-print("7 ** 5 is " + str(result))
+print("7 ** 5 is " + str(x))
 
-result_two: float = float(input("what is the result of 7 / 5? "))
+x_two = float(7 / 5)
 
-print("7 / 5 is " + str(result_two))
+print("7 / 5 is " + str(x_two))
 
-result_three: int = int(input("what is the result of 7 // 5? "))
+x_three = int(7 // 5)
 
-print("7 // 5 is " + str(result_three))
+print("7 // 5 is " + str(x_three))
 
-result_four: int = int(input("what is the result of 7 % 5? "))
+x_four = int(7 % 5)
 
-print("7 % 5 is " + str(result_four))
-
+print("7 % 5 is " + str(x_four))
 
 
 
